@@ -13,7 +13,6 @@ The goal of our analysis is to understand better understand the costs and cost e
 2) **Cost contribution**: What share does each of the intervention services contribute to the total cost of the Full Program?
 3) **Comparative cost-effectiveness**: Is it more cost-effective to invest in a full program or target a subset of program activities?
 4) **Sensitivity**: Are the cost-effectiveness ratios sensitive to the key assumptions of the costing study? To what extent?
-5) **Scale up**: What is the estimated cost to scale-up the full program?
 
 In addition, we will use this project to develop tools and templates for other research practictioners to use as a resource for costing analysis. The primary tool will be a costing Pre-Analysis Plan, which will show researchers how to plan for a costing analysis, and some of the pertinent questions they should aim to answer. This Github repository will also act as a tool for researchers who are interested in the more granular coding decisions that we used in our analysis.
 
