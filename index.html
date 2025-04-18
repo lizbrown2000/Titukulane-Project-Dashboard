@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Progress Dashboard</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .progress-container {
+            margin-bottom: 30px;
+        }
+        .progress-bar {
+            background-color: #e0e0e0;
+            height: 25px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .progress {
+            background-color: #4CAF50;
+            height: 100%;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            line-height: 25px;
+            font-weight: bold;
+        }
+        .milestone {
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+        .milestone-date {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        .update-container {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .update-date {
+            font-weight: bold;
+            color: #7f8c8d;
+        }
+        .screenshot {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+        .status-tag {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+        .status-complete {
+            background-color: #2ecc71;
+            color: white;
+        }
+        .status-progress {
+            background-color: #f39c12;
+            color: white;
+        }
+        .status-planned {
+            background-color: #95a5a6;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Project Name: Titukulane Costing Analysis</h1>
+        <p>A non-technical overview of the cost analysis for Titukulane: progress and key achievements.</p>
+    </header>
+
+    <div class="progress-container">
+        <h2>Overall Progress</h2>
+        <div class="progress-bar">
+            <div class="progress" style="width: 65%;">65%</div>
+        </div>
+        <p>Last updated: April 17, 2025</p>
+    </div>
+
+    <div class="progress-container">
+        <h2>Key Milestones</h2>
+        
+        <div class="milestone">
+            <h3>Phase 1: Initial Data Analysis <span class="status-tag status-complete">Complete</span></h3>
+            <p class="milestone-date">Completed: December 2023</p>
+            <p>This folder shows intial descriptive analysis that was done of the dataset to understand the structure of the data and to develop questions for the CARE finance team..</p>
+        </div>
+        
+        <div class="milestone">
+            <h3>Phase 2: Data Preparation <span class="status-tag status-progress">In Progress</span></h3>
+            <p class="milestone-date">Target: September 2025</p>
+            <p>This folder includes all of the files used to create a clean dataset from the raw data, as well as to allocate line items into costing categories to be used in the core analysis.</p>
+        </div>
+        
+        <div class="milestone">
+            <h3>Phase 3: Core Analysis <span class="status-tag status-planned">In Progress</span></h3>
+            <p class="milestone-date">Target: September 2025</p>
+            <p>This includes all files used to answer the questions listed in the project goals.</p>
+        </div>
+
+        <div class="milestone">
+            <h3>Phase 4: Costing Tools <span class="status-tag status-planned">Planned</span></h3>
+            <p class="milestone-date">Target: September 2025</p>
+            <p>This folder includes the code used to generate products for the broader research community, such as the costing pre-analysis plan.</p>
+        </div>
+    </div>
+
+    <h2>Recent Updates</h2>
+    
+    <div class="update-container">
+        <h3>Costing Tools to CEGA Website</h3>
+        <p class="update-date">April 15, 2025</p>
+        <p>Costing Tools: We are publishing tools that can be used to generate cost analyses for the broader research community, e.g. the costing pre-analysis plan.</p>
+        <!-- <img src="/api/placeholder/600/350" alt="User Interface Screenshot" class="screenshot"> --!>
+        <!--  <p>The new interface includes a simplified navigation system and clearer presentation of data.</p>--!>
+    </div>
+    
+    <div class="update-container">
+        <h3>Data Request to Takunda Team Complete</h3>
+        <p class="update-date">April 8, 2025</p>
+        <p>We have formally requested costing data from the Takunda team, the team has acknowledge the email data request but has not yet sent the data.</p>
+        <!-- <p>Key improvements:</p>
+        <ul>
+            <li>Optimized database indexes</li>
+            <li>Implemented query caching</li>
+            <li>Reduced redundant data calls</li>
+        </ul> --!>
+    </div>
+
+    <div class="update-container">
+        <h3>API Integration</h3>
+        <p class="update-date">March 28, 2025</p>
+        <p>Successfully integrated with external services to enable real-time data synchronization.</p>
+    </div>
+
+    <footer>
+        <p>For more detailed information, please contact lizbrown@berkeley.edu.</p>
+        <p>Last updated: April 17, 2025</p>
+    </footer>
+</body>
+</html>
